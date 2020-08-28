@@ -67,9 +67,9 @@ $bundles = [
 twig:
     form_themes:
         - '@TetranzSelect2Entity/Form/fields.html.twig'
+```
 
 * Load the Javascript on the page. The simplest way is to add the following to your layout file. Don't forget to run console assets:install. Alternatively, do something more sophisticated with Assetic.
-```
 
 ```
 <script src="{{ asset('bundles/tetranzselect2entity/js/select2entity.js') }}"></script>
